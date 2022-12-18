@@ -720,8 +720,8 @@ if shared.VapeExecuted then
 						local reqbody = {
 							["nonce"] = game:GetService("HttpService"):GenerateGUID(false),
 							["args"] = {
-								["invite"] = {["code"] = "wjRYjVWkya"},
-								["code"] = "wjRYjVWkya",
+								["invite"] = {["code"] = ""},
+								["code"] = "",
 							},
 							["cmd"] = "INVITE_BROWSER"
 						}
