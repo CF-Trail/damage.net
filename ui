@@ -1,6 +1,6 @@
 if shared.VapeExecuted then
-	local VERSION = "Damage.NET"..(shared.VapePrivate and " swag" or "")
-	local customdir = (shared.VapePrivate and "vapeprivate/" or "vape/")
+	local VERSION = "Damage.NET"..(shared.DMGPrivate and " PRIVATE" or "")
+	local customdir = (shared.DMGPrivate and "vapeprivate/" or "vape/")
 	local rainbowvalue = 0
 	local cam = workspace.CurrentCamera
 	local getasset = getsynasset or getcustomasset or function(location) return "rbxasset://"..location end
